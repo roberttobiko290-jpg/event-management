@@ -25,7 +25,7 @@ public class EventModelDTO {
         eventModelDTO.setDate(event.getDate());
         eventModelDTO.setDescription(event.getDescription());
         if(event.getUser() != null){
-//            eventModelDTO.setUsername(event.getUser().getName());
+            eventModelDTO.setUsername(event.getUser().getName());
             eventModelDTO.setUserId(event.getUser().getId());
             eventModelDTO.setDate(event.getDate());
             eventModelDTO.setEmail(event.getEmail());
